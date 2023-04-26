@@ -104,6 +104,7 @@
             android:id="@+id/signup"
             android:textSize="15sp"
             android:text="Dont have Account ?"
+            android:textColor="@color/grey"
             android:fontFamily="@font/poppins_medium"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="500dp"/>
