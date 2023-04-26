@@ -6,22 +6,39 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
+<<<<<<< HEAD
         android:icon="@mipmap/ic_launcher"
+=======
+        android:icon="@mipmap/logo"
+>>>>>>> 5d03d19d4dffb8bc9ec85a36a403dc5f152fcc56
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wetivity"
         tools:targetApi="31">
         <activity
+<<<<<<< HEAD
             android:name=".Recommendation"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+=======
+            android:name=".sign_in"
+            android:exported="false" />
+        <activity
+            android:name=".splass"
+>>>>>>> 5d03d19d4dffb8bc9ec85a36a403dc5f152fcc56
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+<<<<<<< HEAD
+=======
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+>>>>>>> 5d03d19d4dffb8bc9ec85a36a403dc5f152fcc56
         </activity>
     </application>
 
