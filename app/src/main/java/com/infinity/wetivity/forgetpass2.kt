@@ -8,7 +8,7 @@ import android.widget.TextView
 class forgetpass2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_forgetpass2)
+        setContentView(R.layout.activity_forgotpass2)
 
         supportActionBar?.hide()
 

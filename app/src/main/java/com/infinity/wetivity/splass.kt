@@ -9,7 +9,7 @@ import android.os.Looper
 class splass : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splass)
+        setContentView(R.layout.activity_splashscreen)
 
         supportActionBar?.hide()
         val handler= Handler(Looper.getMainLooper())

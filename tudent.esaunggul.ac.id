@@ -1,0 +1,26 @@
+[33mcommit 226f916aff1182c219429654255ffd044879a556[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: NVG-064 <aricandra064@student.esaunggul.ac.id>
+Date:   Wed Apr 26 16:03:44 2023 +0700
+
+    Add empty files to resources
+
+[33mcommit cadcbfc07a04a2d0ba3c12b2fd3dcfc754cc3780[m
+Author: NVG-064 <aricandra064@student.esaunggul.ac.id>
+Date:   Wed Apr 26 14:21:01 2023 +0700
+
+    Revert "Create empty activity"
+    
+    This reverts commit 3c648759235e2466c70bf048ef5036cc4d9edb2c.
+
+[33mcommit 3c648759235e2466c70bf048ef5036cc4d9edb2c[m
+Author: NVG-064 <aricandra064@student.esaunggul.ac.id>
+Date:   Wed Apr 26 14:14:27 2023 +0700
+
+    Create empty activity
+    Signed off by aricandra064@student.esaunggul.ac.id
+
+[33mcommit 7be6e7ac2adb94b341c92b90a0afc1272507e8bb[m
+Author: NVG-064 <aricandra064@student.esaunggul.ac.id>
+Date:   Mon Apr 10 10:42:20 2023 +0700
+
+    Initial project commit
