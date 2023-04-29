@@ -15,6 +15,18 @@
             android:name=".sign_in"
             android:exported="false" />
         <activity
+            android:name=".sign_up"
+            android:exported="false" />
+        <activity
+            android:name=".Recommendation"
+            android:exported="false" />
+        <activity
+            android:name=".forgetpass2"
+            android:exported="false" />
+        <activity
+            android:name=".forgetpass"
+            android:exported="false" />
+        <activity
             android:name=".splass"
             android:exported="true">
             <intent-filter>
