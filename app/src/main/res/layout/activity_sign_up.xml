@@ -7,7 +7,7 @@
     android:background="@drawable/sigin"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".sign_up">
+    tools:context=".SignUp">
 
     <RelativeLayout
         android:layout_width="350dp"
@@ -16,7 +16,7 @@
     <ImageView
         android:layout_width="350dp"
         android:layout_height="600dp"
-        android:background="@drawable/bkgshape"/>
+        android:background="@drawable/bg_shape"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -82,7 +82,7 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:id="@+id/signup"
-            android:background="@drawable/bkgbuttomsigin"
+            android:background="@drawable/bg_buttonsigin"
             android:layout_marginLeft="23dp"
             android:layout_marginTop="450dp"
             android:text="Sign Up"

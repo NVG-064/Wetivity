@@ -138,7 +138,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Small Workout"
-
+                    android:gravity="center"
                     android:textSize="16sp"
                     android:textAllCaps="false"
                     android:textColor="#000"/>
@@ -245,12 +245,12 @@
                     android:id="@+id/img_fotograph"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/btn_fotograph"/>
+                    android:src="@drawable/btn_photograph"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Fotograph"
+                    android:text="Photograph"
                     android:textSize="16sp"
                     android:textAllCaps="false"
                     android:textColor="#000"/>
@@ -436,12 +436,12 @@
                     android:id="@+id/img_bussiness"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/btn_bussiness"/>
+                    android:src="@drawable/btn_business"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bussiness"
+                    android:text="Business"
                     android:textSize="16sp"
                     android:textAllCaps="false"
                     android:textColor="#000"/>

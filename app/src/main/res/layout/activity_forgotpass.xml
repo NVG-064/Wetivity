@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/forgotpass"
-    tools:context=".forgetpass">
+    tools:context=".ForgotPassword">
 
     <RelativeLayout
         android:layout_width="350dp"
@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="350dp"
             android:layout_height="400dp"
-            android:background="@drawable/bkgshape"/>
+            android:background="@drawable/bg_shape"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/signin"
             android:textSize="15sp"
-            android:text="@string/forgetpassword1"
+            android:text="@string/forgotpassword1"
             android:textColor="@color/grey"
             android:textAlignment="center"
             android:fontFamily="@font/poppins_medium"
@@ -53,7 +53,7 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:id="@+id/verifikasiforget"
-            android:background="@drawable/bkgbuttonforget1"
+            android:background="@drawable/bg_btn_forgot"
             android:layout_marginLeft="23dp"
             android:layout_marginTop="260dp"
             android:text="Next"

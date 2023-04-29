@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:background="@drawable/sigin"
-    tools:context=".sign_in">
+    tools:context=".SignIn">
 
     <RelativeLayout
         android:layout_width="350dp"
@@ -15,7 +15,7 @@
         <ImageView
             android:layout_width="350dp"
             android:layout_height="550dp"
-            android:background="@drawable/bkgshape"/>
+            android:background="@drawable/bg_shape"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:id="@+id/signin"
-            android:background="@drawable/bkgbuttomsigin"
+            android:background="@drawable/bg_buttonsigin"
             android:layout_marginLeft="23dp"
             android:layout_marginTop="300dp"
             android:text="Sign In"
@@ -104,7 +104,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/signup"
             android:textSize="15sp"
-            android:text="Dont have Account ?"
+            android:text="Don't have an Account?"
             android:textColor="@color/grey"
             android:fontFamily="@font/poppins_medium"
             android:layout_marginLeft="100dp"
