@@ -17,15 +17,17 @@
             android:layout_width="350dp"
             android:layout_height="450dp"
             android:background="@drawable/bkgshape"/>
+
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/poppins_medium"
-            android:text="Forgot Password"
-            android:textColor="@color/black"
-            android:layout_marginLeft="55dp"
-            android:layout_marginTop="30dp"
-            android:textSize="30sp"/>
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="55dp"
+          android:layout_marginTop="30dp"
+          android:fontFamily="@font/poppins_medium"
+          android:text="Forgot Password"
+          android:textColor="@color/black"
+          android:textSize="30sp" />
+
         <TextView
             android:layout_width="300dp"
             android:layout_height="wrap_content"
