@@ -100,14 +100,14 @@
                 android:src="@drawable/search"/>
         </LinearLayout>
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/signup"
             android:textSize="15sp"
             android:text="Don't have an Account?"
             android:textColor="@color/grey"
             android:fontFamily="@font/poppins_medium"
-            android:layout_marginLeft="100dp"
+            android:textAlignment="center"
             android:layout_marginTop="500dp"/>
     </RelativeLayout>
 </LinearLayout>

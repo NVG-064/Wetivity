@@ -1,71 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Recommendation"
-    android:background="@drawable/bg_recommendation">
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg_recommendation"
+    tools:context=".Recommendation">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/header_image"
-        android:layout_width="fill_parent"
-        android:layout_height="133dp"
-        app:srcCompat="@drawable/header_recommendation"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="72dp"
-        android:text="Which goal you want to reach?"
-        android:textColor="#000"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.166"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="60dp"
+            android:text="Which goal you want to reach?"
+            android:textColor="#000"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
 
     <LinearLayout
-        android:id="@+id/firstlinebutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/header_image">
-
+        app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_healthy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minWidth="80dp"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
             android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            android:layout_marginRight="28dp">
+            android:clickable="true">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
-
                 <ImageView
-                    android:id="@+id/img_healthy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_healthy" />
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -78,29 +72,28 @@
 
         </com.google.android.material.card.MaterialCardView>
 
-
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_softskill"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:minWidth="80dp"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginHorizontal="30dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            android:layout_marginLeft="28dp"
-            android:layout_marginRight="28dp">
+            android:clickable="true">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center_horizontal">
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
                 <ImageView
-                    android:id="@+id/img_softskill"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_softskill"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -115,27 +108,28 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_smallworkout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="125dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            app:layout_constraintStart_toEndOf="@+id/btn_painting"
-            android:layout_marginLeft="28dp">
+            android:clickable="true">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="125dp"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
                 <ImageView
                     android:id="@+id/img_smallworkout"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_smallworkout"/>
-
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Small Workout"
                     android:gravity="center"
@@ -150,29 +144,30 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/secondlinebutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_marginTop="16dp"
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/firstlinebutton">
+        app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_coding"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            android:layout_marginRight="28dp">
+            android:clickable="true">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
                 <ImageView
@@ -180,7 +175,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_coding"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -195,17 +189,21 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_painting"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="105dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="40dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            android:layout_marginLeft="28dp"
-            android:layout_marginRight="28dp">
+            android:clickable="true">
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
                 <ImageView
@@ -213,7 +211,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_painting"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -228,17 +225,20 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_fotograph"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            app:layout_constraintStart_toEndOf="@+id/btn_painting"
-            android:layout_marginLeft="28dp">
+            android:clickable="true">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
                 <ImageView
@@ -246,7 +246,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_photograph"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -262,29 +261,30 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/thirdlinebutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_marginTop="16dp"
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/secondlinebutton">
+        app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_gaming"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            android:layout_marginRight="28dp">
+            android:clickable="true">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
                 <ImageView
@@ -292,7 +292,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_gaming"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -307,17 +306,21 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_fashion"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="40dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            android:layout_marginLeft="28dp"
-            android:layout_marginRight="28dp">
+            android:clickable="true">
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
                 <ImageView
@@ -325,7 +328,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_fashion"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -340,17 +342,20 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_cooking"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            app:layout_constraintStart_toEndOf="@+id/btn_painting"
-            android:layout_marginLeft="28dp">
+            android:clickable="true">
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
                 <ImageView
@@ -358,7 +363,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_cooking"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -368,35 +372,34 @@
                     android:textColor="#000"/>
             </LinearLayout>
 
-
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/fourthlinebutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
         android:layout_marginTop="16dp"
         android:paddingLeft="24dp"
         android:paddingRight="24dp"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/thirdlinebutton">
+        app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_dancer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            android:layout_marginRight="28dp">
-
+            android:clickable="true">
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
                 <ImageView
@@ -404,7 +407,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_dancer"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -419,17 +421,20 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_bussiness"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="40dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            android:layout_marginLeft="28dp"
-            android:layout_marginRight="28dp">
-
+            android:clickable="true">
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
                 <ImageView
@@ -437,7 +442,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_business"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -452,17 +456,19 @@
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/btn_influencer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="@color/transparan"
+            app:cardElevation="0dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
             tools:ignore="MissingConstraints"
             android:checkable="true"
-            android:clickable="true"
-            app:layout_constraintStart_toEndOf="@+id/btn_painting"
-            android:layout_marginLeft="28dp">
-
+            android:clickable="true">
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:background="@color/transparan"
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
                 <ImageView
@@ -470,7 +476,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/btn_influencer"/>
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -501,4 +506,4 @@
         tools:layout_editor_absoluteX="24dp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
