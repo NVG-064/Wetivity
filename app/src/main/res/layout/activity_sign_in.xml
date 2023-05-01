@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:background="@drawable/sigin"
+    android:background="@drawable/sign_in"
     tools:context=".SignIn">
 
     <RelativeLayout
@@ -64,7 +64,7 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:id="@+id/signin"
-            android:background="@drawable/bg_buttonsigin"
+            android:background="@drawable/bg_btn_sigin"
             android:layout_marginLeft="23dp"
             android:layout_marginTop="300dp"
             android:text="Sign In"

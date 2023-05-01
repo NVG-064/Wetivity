@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/sigin"
+    android:background="@drawable/sign_in"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".SignUp">
@@ -82,7 +82,7 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:id="@+id/signup"
-            android:background="@drawable/bg_buttonsigin"
+            android:background="@drawable/bg_btn_sigin"
             android:layout_marginLeft="23dp"
             android:layout_marginTop="450dp"
             android:text="Sign Up"
