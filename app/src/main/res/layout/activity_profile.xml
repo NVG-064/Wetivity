@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_profile"
+    tools:context=".profile">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:text="Profile" />
+
+    <ImageButton
+        android:id="@+id/userProfilePhoto"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@id/header_title"
+        android:layout_marginTop="24dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/photo_profile"
+        android:src="@drawable/btn_edit"/>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userProfilePhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="21dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_content_profile"
+        android:orientation="vertical"
+        android:padding="27dp"
+        android:paddingHorizontal="21dp"
+        android:paddingTop="44dp"
+        android:paddingBottom="32dp">
+
+        <Button
+            android:id="@+id/btnPengaturanProfile"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/transparan"
+            android:drawableLeft="@drawable/ic_pengaturan_profile"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Pengaturan Profil\nAtur Alamat email, Username, dan lainnya"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnPrivasiAkun"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/transparan"
+            android:drawableLeft="@drawable/ic_privasi_akun"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Privasi Akun\nAtur Penggunaan data Pribadimu"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnKeamananAkun"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/transparan"
+            android:drawableLeft="@drawable/ic_keamanan_akun"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Keamanan Akun\nKata Sandi, PIN, dan verifikasi data diri"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnNotifikasi"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/transparan"
+            android:drawableLeft="@drawable/ic_notifikasi"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Notifikasi\nAtur Segala jenis pesan notifikasi"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="83dp"
+            android:background="@color/black"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btnKeluarAkun"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:backgroundTint="@color/transparan"
+            android:drawableLeft="@drawable/ic_keluar_akun"
+            android:fontFamily="@font/poppins_regular"
+            android:text="Keluar Akun"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</RelativeLayout>
