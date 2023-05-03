@@ -26,8 +26,7 @@
         android:layout_below="@id/header_title"
         android:layout_marginTop="24dp"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/photo_profile"
-        android:src="@drawable/btn_edit"
+        android:background="@drawable/profile_photo"
         android:contentDescription="To update user photo profile" />
 
     <LinearLayout

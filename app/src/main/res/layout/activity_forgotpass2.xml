@@ -42,7 +42,7 @@
             android:layout_height="50dp"
             android:hint="Password"
             android:inputType="textPassword"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/grey"
             android:textSize="15sp"
             android:textColor="@color/black"
             android:fontFamily="@font/poppins_medium"
@@ -62,7 +62,7 @@
             android:inputType="textPassword"
             android:paddingLeft="20dp"
             android:textColor="@color/black"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/grey"
             android:textSize="15sp" />
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="300dp"

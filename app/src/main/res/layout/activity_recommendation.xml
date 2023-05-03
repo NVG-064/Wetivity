@@ -339,5 +339,4 @@
         tools:layout_editor_absoluteX="24dp"
         android:fontFamily="@font/poppins_medium"/>
 
-
 </LinearLayout>

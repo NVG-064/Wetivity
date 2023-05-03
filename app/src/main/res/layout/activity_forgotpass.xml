@@ -41,7 +41,7 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:hint="Email"
-            android:textColorHint="@color/black"
+            android:textColorHint="@color/grey"
             android:textSize="15sp"
             android:textColor="@color/black"
             android:fontFamily="@font/poppins_medium"
