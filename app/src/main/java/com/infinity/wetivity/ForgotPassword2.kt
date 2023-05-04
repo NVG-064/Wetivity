@@ -3,6 +3,7 @@ package com.infinity.wetivity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 
 class ForgotPassword2 : AppCompatActivity() {
@@ -15,6 +16,13 @@ class ForgotPassword2 : AppCompatActivity() {
         val bcklogin = findViewById<TextView>(R.id.backsign)
 
         bcklogin.setOnClickListener{
+            val intent = Intent(this, SignIn::class.java)
+            startActivity(intent)
+        }
+
+        val btnrecomendasi = findViewById<Button>(R.id.verifikasiforget)
+
+        btnrecomendasi.setOnClickListener{
             val intent = Intent(this, SignIn::class.java)
             startActivity(intent)
         }

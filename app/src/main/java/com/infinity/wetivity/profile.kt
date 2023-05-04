@@ -15,7 +15,7 @@ class profile : AppCompatActivity() {
         val logout = findViewById<Button>(R.id.btnKeluarAkun)
 
         logout.setOnClickListener{
-            val intent = Intent(this, SplashScreen::class.java)
+            val intent = Intent(this, SignIn::class.java)
             startActivity(intent)
         }
     }

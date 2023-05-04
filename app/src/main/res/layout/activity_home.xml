@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/home"
+    tools:context=".home">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/notifikasi" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:text="WETIVITY"
+                android:fontFamily="@font/poppins_extrabold"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/task"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"
+            android:textSize="20sp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/task"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/detail1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"
+                android:text="Android Development" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/detail1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Learning Git"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/detail1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Become Ui/ Ux Desi" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/task"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upcoming Goals"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_extrabold"
+            android:textSize="20sp"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/task"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/detail1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"
+                android:text="Learn Data Science" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/detail1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"
+                android:text="Healthy Life" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/detail1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"
+                android:text="Me Time" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/detail1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Easy-level Workout"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigationbottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:background="@color/transparan"
+            android:outlineSpotShadowColor="@color/transparan"
+            app:menu="@menu/navigatinbar" />
+
+    </RelativeLayout>
+
+</LinearLayout>

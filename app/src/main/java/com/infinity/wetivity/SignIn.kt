@@ -3,6 +3,8 @@ package com.infinity.wetivity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 
 class SignIn : AppCompatActivity() {
@@ -18,6 +20,13 @@ class SignIn : AppCompatActivity() {
             val intent = Intent(this, SignUp::class.java)
             startActivity(intent)
         }
+
+//        val home = findViewById<Button>(R.id.signin)
+//
+//        home.setOnClickListener{
+//            val intent = Intent(this, home::class.java)
+//            startActivity(intent)
+//        }
 
         val forget = findViewById<TextView>(R.id.forgetpassword)
 
